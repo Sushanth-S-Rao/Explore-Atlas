@@ -5,12 +5,14 @@ Web application designed to discover new terrains. Registered Users can upload n
 
 ## Technology Stack
 
-EJS: Templating engine that embeds JavaScript within HTML
-Node.js: Server-side JavaScript runtime environment
-Express: Framework for handling HTTP requests, defining routes, and sending response
-MongoDB: NoSQL database for handling hierarchical data
+- EJS: Templating engine that embeds JavaScript within HTML
+- Node.js: Server-side JavaScript runtime environment
+- Express: Framework for handling HTTP requests, defining routes, and sending response
+- MongoDB: NoSQL database for handling hierarchical data
 
 ## APIs
 
-Cloudinary: To store IMAGES of the Spots
-MapBox: Provides interactive maps to mark the locations
+- Cloudinary: To store IMAGES of the Spots
+- MapBox: Provides interactive maps to mark the locations
+
+
