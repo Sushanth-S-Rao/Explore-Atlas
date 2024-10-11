@@ -25,7 +25,7 @@ module.exports.createCampground = async (req, res, next) => {
     campground.author = req.user._id;
     await campground.save();
     console.log(campground);
-    req.flash('success', 'Successfully made a new campground!');
+    req.flash('success', 'Successfully made a new terrain!');
     res.redirect(`/campgrounds/${campground._id}`)
 }
 
@@ -47,7 +47,7 @@ module.exports.renderEditForm = async (req, res) => {
     const { id } = req.params;
     const campground = await Campground.findById(id)
     if (!campground) {
-        req.flash('error', 'Cannot find that campground!');
+        req.flash('error', 'Cannot find that terrain!');
         return res.redirect('/campgrounds');
     }
     res.render('campgrounds/edit', { campground });
