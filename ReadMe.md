@@ -15,4 +15,6 @@ Web application designed to discover new terrains. Registered Users can upload n
 - Cloudinary: To store IMAGES of the Spots
 - MapBox: Provides interactive maps to mark the locations
 
+## Notes
 
+This is an alternate idea and implementation of Colt Steele's project [YelpCamp](https://github.com/Colt/YelpCamp) from his [course](https://www.udemy.com/course/the-web-developer-bootcamp/)
